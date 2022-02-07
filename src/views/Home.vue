@@ -2,6 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1 class="btSport">OG Nimi</h1>
   </div>
 </template>
 
@@ -16,3 +17,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.btSport {
+  color: #f452f4;
+}
+</style>
